@@ -1,7 +1,3 @@
-# Acculance v4.0.0
-
-## Running Demo Seeder
-
 ```shell
 php artisan migrate:fresh --seed --seeder=DemoDatabaseSeeder
 ```
@@ -32,3 +28,7 @@ php artisan migrate:fresh --seed --seeder=DemoDatabaseSeeder
 3. Provide these two files in the `demo-csv-file` folder for examples
     * `products.csv` (name, model, barcode_symbology, sub_cat_id, brand_id, unit_id, tax_id, tax_type, regular_price, discount, note, alert_qty, status )
     * `demo.csv` (name, phone, email, company_name, address)
+
+### Login Information
+username : admin@example.com
+password : 123456
